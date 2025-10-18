@@ -283,7 +283,7 @@ js = """
 })();
 </script>
 """
-st.components.v1.html(js, height=0)
+st.markdown(js, unsafe_allow_html=True)
 
 # -------------------------
 # Footer: Code by PhiLong
